@@ -1,57 +1,21 @@
 <resources>
-    <string name="app_name">WalterSMovieProject</string>
+    <string name="app_name">WalterS</string>
+    <string name="about">About</string>
 
-    <string name="title_placeholder">Title</string>
-    <string name="news_placeholder">News</string>
-    <string name="sports_info_placeholder">Here is some news</string>
-    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit. Praesent ultrices congue rutrum.
-        Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend
-        eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum
-        blandit, dolor diam fringilla tellus, eu euismod mauris neque
-        at neque.</string>
+    //alarm
+    <string name="alarm_off">Movie Alarm Off</string>
+    <string name="alarm_on">Movie Alarm On</string>
+    <string name="alarm_on_toast">Movie Alarm On!</string>
+    <string name="alarm_off_toast">Movie Alarm Off!</string>
+    <string name="notification_title">Jangan lupa nonton film ya</string>
+    <string name="notification_text">Ada film baru, yuk buka aplikasinya untuk informasi film terbaru</string>
+    <string name="alarm_notif">Setel Alarm</string>
+    <string name="name_alarm">Alarm</string>
+<!--    <string name="description">Dibuat dengan hati oleh WalterS</string>-->
+    <string name="description2">1. Iqbal Malik Alfaruq</string>
+    <string name="description3">2. Rahmat Fitra Arkamil</string>
+    <string name="rating">Rating</string>
+    <string name="disukai_oleh">Disukai oleh</string>
+    <string name="tanggal_rilis">Tanggal rilis</string>
 
-    <string-array name="sports_titles">
-        <item>Baseball</item>
-        <item>Badminton</item>
-        <item>Basketball</item>
-        <item>Bowling</item>
-        <item>Cycling</item>
-        <item>Golf</item>
-        <item>Running</item>
-        <item>Soccer</item>
-        <item>Swimming</item>
-        <item>Table Tennis</item>
-        <item>Tennis</item>
-    </string-array>
-
-    <string-array name="sports_info">
-        <item>Here is some Baseball news!</item>
-        <item>Here is some Badminton news!</item>
-        <item>Here is some Basketball news!</item>
-        <item>Here is some Bowling news!</item>
-        <item>Here is some Cycling news!</item>
-        <item>Here is some Golf news!</item>
-        <item>Here is some Running news!</item>
-        <item>Here is some Soccer news!</item>
-        <item>Here is some Swimming news!</item>
-        <item>Here is some Table Tennis news!</item>
-        <item>Here is some Tennis news!</item>
-    </string-array>
-
-
-    <array name="sports_images">
-        <item>@drawable/img_baseball</item>
-        <item>@drawable/img_badminton</item>
-        <item>@drawable/img_basketball</item>
-        <item>@drawable/img_bowling</item>
-        <item>@drawable/img_cycling</item>
-        <item>@drawable/img_golf</item>
-        <item>@drawable/img_running</item>
-        <item>@drawable/img_soccer</item>
-        <item>@drawable/img_swimming</item>
-        <item>@drawable/img_tabletennis</item>
-        <item>@drawable/img_tennis</item>
-
-    </array>
 </resources>
