@@ -4,9 +4,14 @@
 <!--    <color name="colorPrimaryDark">#073A37</color>-->
 <!--    <color name="colorAccent">#ffffff</color>-->
 
-    <color name="colorPrimary">#B9F6CA</color>
-    <color name="colorPrimaryDark">#1B5E20</color>
-    <color name="colorAccent">#69F0AE</color>
+<!--    <color name="colorPrimary">#B9F6CA</color>-->
+<!--    <color name="colorPrimaryDark">#1B5E20</color>-->
+<!--    <color name="colorAccent">#69F0AE</color>-->
+
+    <color name="colorPrimary">#00897B</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#64FFDA</color>
+
 
     <!-- colors for tab and screent text -->
 
