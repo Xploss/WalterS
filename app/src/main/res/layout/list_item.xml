@@ -1,48 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp">
-    
+    android:layout_margin="8dp"
+    >
+
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-    <ImageView
-        android:id="@+id/sportsImage"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:adjustViewBounds="true"/>
+        >
 
-    <TextView
-        android:id="@+id/title"
-        style="@style/TextAppearance.AppCompat.Headline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="8dp"
-        android:layout_alignBottom="@id/sportsImage"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark"
-        android:text="@string/title_placeholder" />
 
-    <TextView
-        android:id="@+id/newsTitle"
-        style="@style/TextAppearance.AppCompat.Subhead"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/sportsImage"
-        android:textColor="?android:textColorSecondary"
-        android:padding="8dp"
-        android:text="@string/news_placeholder" />
+        <ImageView
+            android:id="@+id/movie_backdrop"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
 
-    <TextView
-        android:id="@+id/subTitle"
-        style="@style/TextAppearance.AppCompat.Subhead"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/newsTitle"
-        android:padding="8dp"
-        android:text="@string/sports_info_placeholder" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_backdrop"
+            android:paddingTop="6dip"
+            android:paddingBottom="2dip"
+            android:paddingLeft="6dip"
+            android:textColor="@color/colorPrimary"
+            android:background="@color/colorCard"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/original_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:paddingBottom="2dip"
+            android:paddingLeft="6dip"
+            android:textColor="@color/colorCard"
+            android:background="@color/colorCard"
+            android:layout_marginTop="0dp"/>
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:background="@color/colorCard"
+            android:paddingLeft="6dip"
+            android:paddingBottom="2dip"
+            android:textSize="18sp"
+            android:textColor="@color/colorAccent" />
 
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
