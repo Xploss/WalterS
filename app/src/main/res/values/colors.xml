@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#E1E1E1</color>-->
+<!--    <color name="colorPrimaryDark">#073A37</color>-->
+<!--    <color name="colorAccent">#ffffff</color>-->
+
+    <color name="colorPrimary">#B9F6CA</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#69F0AE</color>
+
+    <!-- colors for tab and screent text -->
+
+    <color name="tab_indicator_grey">#676060</color>
+    <color name="intro_title_color">#FFFFFF</color>
+    <color name="intro_description_color">#EEEEEE</color>
+
+    <!-- colors button -->
+    <color name="colorButton">#999900</color>
+
+<!--    &lt;!&ndash; colors cardview &ndash;&gt;-->
+<!--    <color name="colorCard">#22CD89</color>-->
+
+    <!-- colors cardview -->
+    <color name="colorCard">#000000</color>
+</resources>
