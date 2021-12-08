@@ -1,19 +1,21 @@
 <resources>
     <string name="app_name">WalterS</string>
     <string name="about">About</string>
-    <string name="judul">FLASH FOUR</string>
 
     //alarm
     <string name="alarm_off">Movie Alarm Off</string>
     <string name="alarm_on">Movie Alarm On</string>
     <string name="alarm_on_toast">Movie Alarm On!</string>
     <string name="alarm_off_toast">Movie Alarm Off!</string>
-    <string name="notification_title">Dont Forget To Watching The Movie</string>
-    <string name="notification_text">You can open your application to know about your favorite movie</string>
-    <string name="alarm_notif">Set Up Your Alarm</string>
+    <string name="notification_title">Jangan lupa nonton film ya</string>
+    <string name="notification_text">Ada film baru, yuk buka aplikasinya untuk informasi film terbaru</string>
+    <string name="alarm_notif">Setel Alarm</string>
     <string name="name_alarm">Alarm</string>
 <!--    <string name="description">Dibuat dengan hati oleh WalterS</string>-->
     <string name="description2">1. Iqbal Malik Alfaruq</string>
     <string name="description3">2. Rahmat Fitra Arkamil</string>
+    <string name="rating">Rating</string>
+    <string name="disukai_oleh">Disukai oleh</string>
+    <string name="tanggal_rilis">Tanggal rilis</string>
 
 </resources>
