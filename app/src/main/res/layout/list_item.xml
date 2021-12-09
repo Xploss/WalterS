@@ -30,7 +30,7 @@
             android:paddingTop="6dip"
             android:paddingBottom="2dip"
             android:paddingLeft="6dip"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/intro_title_color"
             android:background="@color/colorCard"
             android:textSize="25sp"
             android:textStyle="bold" />
